@@ -5,25 +5,15 @@ pageEncoding="UTF-8"%>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>首页</title>
-<link rel="stylesheet" href="static/css/header.css" />
 <link rel="stylesheet" href="static/css/public.css" />
+<link rel="stylesheet" href="static/css/header.css" />
 <style>
 
-.banner {
-	height: 380px ;
-    overflow: hidden ;
-    background: #ccc;
-}
-
-	* {
-		padding: 0;
-		margin: 0;
-	}
 	ul li {list-style: none;}
 	
 	.banner {
-		height: 380px;
-	    margin-top: 20px;
+		height: 380px ;
+    	overflow: hidden ;
 	    position: relative;
 	    overflow: hidden;
 	}
@@ -94,7 +84,8 @@ pageEncoding="UTF-8"%>
 </head>
 <body>
 
-<%@include file="common/header.jsp" %>
+	<!-- 头部页面 -->
+	<%@include file="common/header.jsp" %>
 	
 	<div class='banner'>
 		<div class='content'>

@@ -12,7 +12,7 @@
 	    </ul>
 	    
 	    <div class='login'>
-			<span><a href="javascript:void(0)">登陆</a></span>  
+			<span><a href="login.jsp">登陆</a></span>  
 			<span>|</span> 
 			<span><a href="javascript:void(0)">注册</a></span>
 		</div>
